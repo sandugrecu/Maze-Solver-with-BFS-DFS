@@ -279,11 +279,11 @@ class MazeApp:
             distance = len(path) - 1  # Distanta este numărul de pași din drum minus 1
             time_taken = end_time - start_time  # Timpul de execuție
             # Actualizează etichetele cu rezultatele
-            self.distance_label.config(text=f"Distanta: {distance} pași")
-            self.time_label.config(text=f"Timp de executie: {time_taken:.4f} secunde")
+            self.distance_label.config(text=f"Distance: {distance} steps")
+            self.time_label.config(text=f"Execution time: {time_taken:.4f} seconds")
         else:
-            self.distance_label.config(text="Distanta: N/A")
-            self.time_label.config(text="Timp de executie: N/A")
+            self.distance_label.config(text="Distance: N/A")
+            self.time_label.config(text="Execution time: N/A")
 
     def run_dfs(self):
         self.clear_canvas()
@@ -296,11 +296,11 @@ class MazeApp:
             distance = len(path) - 1  # Distanta este numărul de pași din drum minus 1
             time_taken = end_time - start_time  # Timpul de execuție
             # Actualizează etichetele cu rezultatele
-            self.distance_label.config(text=f"Distanta: {distance} pași")
-            self.time_label.config(text=f"Timp de executie: {time_taken:.4f} secunde")
+            self.distance_label.config(text=f"Distance: {distance} steps")
+            self.time_label.config(text=f"Execution time: {time_taken:.4f} seconds")
         else:
-            self.distance_label.config(text="Distanta: N/A")
-            self.time_label.config(text="Timp de executie: N/A")
+            self.distance_label.config(text="Distance: N/A")
+            self.time_label.config(text="Execution time: N/A")
 
     def clear_canvas(self):
         self.canvas.delete("all")
