@@ -6,8 +6,9 @@ An interactive Python application that visualizes **BFS** and **DFS** algorithms
 
 ## 📸 Demo
 
-![Maze Solver Demo](https://drive.google.com/uc?export=view&id=1Lou5HOUU_egXDB6ok_P680Y1EN3E9WSn)
-
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1Lou5HOUU_egXDB6ok_P680Y1EN3E9WSn" width="350" />
+</p>
 ---
 
 ## 🚀 Features
