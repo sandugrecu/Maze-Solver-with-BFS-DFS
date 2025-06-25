@@ -85,7 +85,7 @@ maze3 = [
 class MazeApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Rezolvarea labirintului")  # Seteaza titlul ferestrei principale
+        self.root.title("Maze solver")  # Seteaza titlul ferestrei principale
 
         # Seteaza labirintul initial
         self.maze = [row[:] for row in maze1]  # Creeaza o copie a labirintului initial
@@ -136,13 +136,13 @@ class MazeApp:
         self.clear_button.pack(side="right", padx=20, pady=10)
 
         # Etichete pentru a afișa rezultatele
-        self.result_label = tk.Label(self.root, text="Rezultate: ", font=("Arial", 12))
+        self.result_label = tk.Label(self.root, text="Results: ", font=("Arial", 12))
         self.result_label.pack(pady=10)
 
-        self.distance_label = tk.Label(self.root, text="Distanta: -", font=("Arial", 12))
+        self.distance_label = tk.Label(self.root, text="Distance: -", font=("Arial", 12))
         self.distance_label.pack(pady=5)
 
-        self.time_label = tk.Label(self.root, text="Timp de executie: -", font=("Arial", 12))
+        self.time_label = tk.Label(self.root, text="Execution time: -", font=("Arial", 12))
         self.time_label.pack(pady=5)
 
         # Deseneaza labirintul initial
