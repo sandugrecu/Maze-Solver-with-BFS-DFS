@@ -32,10 +32,10 @@ An interactive Python application that visualizes **BFS** and **DFS** algorithms
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/maze-solver-visualizer
+git clone https://github.com/yourusername/Maze-Solver-with-BFS-DFS
 
 # Navigate into the directory
-cd maze-solver-visualizer
+cd Maze-Solver-with-BFS-DFS
 
 # Run the project
 python main.py
